@@ -21,11 +21,11 @@ importers:
   apps/web:
     dependencies:
       '@mastermax/ai-core':
-        specifier: link:../../packages/ai-core
-        version: link:../../packages/ai-core
+        specifier: file:../../packages/ai-core
+        version: file:packages/ai-core
       '@mastermax/shared':
-        specifier: link:../../packages/shared
-        version: link:../../packages/shared
+        specifier: file:../../packages/shared
+        version: file:packages/shared
       next:
         specifier: ^13.0.0
         version: 13.5.11(react-dom@18.3.1)(react@18.3.1)
@@ -64,8 +64,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.4
       '@mastermax/shared':
-        specifier: link:../shared
-        version: link:../shared
+        specifier: file:../shared
+        version: file:packages/shared
     devDependencies:
       '@types/node':
         specifier: ^18.0.0
@@ -2623,3 +2623,16 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  file:packages/ai-core:
+    resolution: {directory: packages/ai-core, type: directory}
+    name: '@mastermax/ai-core'
+    dependencies:
+      '@anthropic-ai/sdk': 0.2.4
+      '@mastermax/shared': file:packages/shared
+    dev: false
+
+  file:packages/shared:
+    resolution: {directory: packages/shared, type: directory}
+    name: '@mastermax/shared'
+    dev: false
