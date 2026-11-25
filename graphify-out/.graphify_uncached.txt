@@ -1,0 +1,6 @@
+/Users/gugulothrajesh/MasterMax/README.md
+/Users/gugulothrajesh/MasterMax/apps/desktop/README.md
+/Users/gugulothrajesh/MasterMax/apps/mobile/README.md
+/Users/gugulothrajesh/MasterMax/apps/web/README.md
+/Users/gugulothrajesh/MasterMax/packages/ai-core/README.md
+/Users/gugulothrajesh/MasterMax/packages/shared/README.md

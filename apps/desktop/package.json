@@ -1,0 +1,21 @@
+{
+  "name": "@mastermax/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "electron-forge start",
+    "build": "electron-forge make",
+    "start": "electron .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "electron": "^25.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0",
+    "@electron-forge/packager": "^6.0.0",
+    "@electron-forge/startup": "^6.0.0",
+    "@types/electron": "^25.0.0"
+  }
+}

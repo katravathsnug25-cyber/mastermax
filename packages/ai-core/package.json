@@ -1,0 +1,21 @@
+{
+  "name": "@mastermax/ai-core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.2.0",
+    "@mastermax/shared": "link:../shared"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.2.0"
+  }
+}
