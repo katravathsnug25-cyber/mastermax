@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mastermax/ai-core": "link:../../packages/ai-core",
-    "@mastermax/shared": "link:../../packages/shared",
+    "@mastermax/ai-core": "file:../../packages/ai-core",
+    "@mastermax/shared": "file:../../packages/shared",
     "next": "^13.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

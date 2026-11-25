@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.2.0",
-    "@mastermax/shared": "link:../shared"
+    "@mastermax/shared": "file:../shared"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
